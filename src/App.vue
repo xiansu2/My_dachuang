@@ -1,22 +1,30 @@
 <template>
-  <!-- 显示登录表单 -->
-  <form>
-    <h2>Login Form</h2>
-    <!-- 用户名输入框 -->
-    <label for="username">Username:</label>
-    <input type="text" id="username" />
-    <br />
-    <!-- 密码输入框 -->
-    <label for="password">Password:</label>
-    <input type="password" id="password" />
-    <br />
-    <!-- 登录按钮 -->
-    <button type="submit">Login</button>
-  </form>
+  <div class="countainer">
+    <!--渲染LoginForm和RegisterForm组件-->
+    <LoginForm></LoginForm>
+    <RegisterForm></RegisterForm>
+  </div>
 </template>
 
+<!--导入-->
 <script>
-export default {
-  name: 'LoginForm', // 定义组件名称
-};
+import LoginForm from './components/LoginForm.vue'
+import Register from './components/RegisterForm.vue'
+
+export default{
+  name:'LoginPage',
+  components:{  //注册组件
+    LoginForm,
+    RegisterForm
+  }
+}
 </script>
+
+<!--设置style-->
+<style scoped>
+.container{
+  display:flex;
+  justify-content:space-around;
+  margin-top:20px;
+}
+</style>
