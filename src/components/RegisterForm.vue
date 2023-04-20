@@ -14,6 +14,7 @@
   <label for="password">Password:</label>
   <input type="password" id="password">
   <!--按钮注册-->
+  <br>
   <button type="submit">Register</button>
   </form>
 </template>
@@ -21,6 +22,6 @@
 <!--暴露-->
 <script>
 export default{
-  name='Register Form'
+  name='RegisterForm'
 }
 </script>

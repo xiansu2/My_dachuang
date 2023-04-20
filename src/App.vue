@@ -9,7 +9,7 @@
 <!--导入-->
 <script>
 import LoginForm from './components/LoginForm.vue'
-import Register from './components/RegisterForm.vue'
+import RegisterForm from './components/RegisterForm.vue'
 
 export default{
   name:'LoginPage',
