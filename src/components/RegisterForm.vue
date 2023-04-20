@@ -22,6 +22,6 @@
 <!--暴露-->
 <script>
 export default{
-  name='RegisterForm'
+  name:'RegisterForm'
 }
 </script>

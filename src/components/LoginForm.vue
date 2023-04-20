@@ -18,6 +18,6 @@
 <!--使用export default将此组件暴露出去以便使用-->
 <script>
 export default{
-  name='LoginForm'
+  name:'LoginForm'
 }
 </script>
