@@ -23,6 +23,7 @@ export default{
 <!--设置style-->
 <style scoped>
 .container{
+  background-color:dodgerblue;
   display:flex;
   justify-content:space-around;
   margin-top:20px;
