@@ -9,7 +9,7 @@
 
 <!--引用导入-->
 <script>
-import Navbar from './components/Main/NavigationBar.vue';
+import Navbar from 'src/components/Main/NavigationBar.vue';
 
 export default{
   components:{
