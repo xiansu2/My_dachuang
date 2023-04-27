@@ -1,32 +1,20 @@
+<!--这里面的是要渲染的内容-->
 <template>
-  <div class="countainer">
-    <!--渲染LoginForm和RegisterForm组件-->
-    <LoginForm></LoginForm>
-    <RegisterForm></RegisterForm>
+  <div id="app">
+    <header>
+      <Navbar />
+    </header>
   </div>
 </template>
 
-<!--导入-->
+<!--引用导入-->
 <script>
-import LoginForm from './components/LoginForm.vue'
-import RegisterForm from './components/RegisterForm.vue'
+import Navbar from './components/Main/NavigationBar.vue';
 
 export default{
-  name:'LoginPage',
-  components:{  //注册组件
-    LoginForm,
-    RegisterForm
+  components:{
+    Navbar
   }
-}
+};
 </script>
-
-<!--设置style-->
-<style scoped>
-.container{
-  background-color:dodgerblue;
-  display:flex;
-  justify-content:space-around;
-  margin-top:20px;
-}
-</style>
 
